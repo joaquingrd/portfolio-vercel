@@ -1,0 +1,77 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.Skills {
+  background-color: #272733;
+  height: 48vw;
+  padding-top: 1vw;
+}
+
+.skills-title {
+  width: 100%;
+  font-family: Libre Baskervill;
+  font-size: 3vw;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding-top: 2vw;
+}
+
+.iconos {
+  margin-top: 5vw;
+  display: flex;
+  justify-content: center;
+  gap: 8vw;
+}
+
+.ic {
+  width: 5vw;
+  height: 5vw;
+  transition: 0.4s;
+  border-radius: 10px;
+}
+
+.ic:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+  border-radius: 10px;
+}
+
+.icono-git {
+  color: #f1502f;
+}
+
+.icono-github {
+  color: #f1f1f1;
+}
+
+.icono-agile {
+  color: #04a5ce;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 991px) {
+  .Skills {
+    background-color: #272733;
+    height: 78vw;
+    margin-bottom: 6vw;
+  }
+  .skills-title {
+    font-size: 7vw;
+  }
+
+  .ic {
+    width: 12vw;
+    height: 12vw;
+  }
+  .iconos-front {
+    margin-top: 10vw;
+    gap: 5vw;
+  }
+
+  .iconos-back {
+    margin-top: 5vw;
+    gap: 5vw;
+  }
+}
