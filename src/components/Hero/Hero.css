@@ -60,47 +60,49 @@
   .contenedor1 {
     padding-top: 0vw;
     width: 100%;
-    min-height: 60vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 25vw;
   }
 
   .hero-text {
-    width: 50%;
+    width: 80%;
+    font-family: Libre Baskervill;
     text-align: center;
+    margin: auto;
   }
+
   .hero-title {
-    font-size: 10vw;
+    opacity: -5;
+  }
+
+  .hero-title2 {
+    font-size: 5vw;
+    font-weight: 700;
+    color: #bffa37;
   }
   .hero-subtitle {
-    font-size: 5vw;
+    font-size: 3vw;
   }
 
   /*CONTENEDOR IMAGEN*/
   .contenedor2 {
     min-width: 100%;
-    min-height: 80vw;
+    min-height: 50vw;
     display: flex;
     justify-content: center;
     padding-top: 2vw;
   }
   .contenedor2 .hero-image {
-    width: 60vw;
-    height: 60vw;
+    width: 1vw;
+    height: 1vw;
     position: relative;
-    margin-left: 2vw;
-    margin-top: 0vw;
-    opacity: 0;
+    opacity: -2;
   }
 
   .hero-image1 {
     width: 60vw;
     height: 60vw;
     position: relative;
-    top: 11.5vh;
-    right: 32vw;
-
+    margin: auto;
     opacity: 1;
   }
 }

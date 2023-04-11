@@ -129,7 +129,7 @@ const Projects = () => {
                   </div>
                   <div class="btn-group">
                     <a
-                      href="https://github.com/joaquingrd/PortfolioJRD/tree/main/portfolio-jrd"
+                      href="https://github.com/joaquingrd/portfolio-vercel"
                       class="btn btn-secondary"
                       rel="noopener noreferrer"
                       target="_blank"
@@ -137,7 +137,7 @@ const Projects = () => {
                       GitHub
                     </a>
                     <a
-                      href="https://pi-countries-two.vercel.app/"
+                      href="https://portfolio-joaquinrd.vercel.app/"
                       class="btn btn-secondary"
                       rel="noopener noreferrer"
                       target="_blank"
