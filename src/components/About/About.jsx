@@ -7,7 +7,7 @@ const About = () => {
       <div
         class="about-text1"
         data-aos="fade-right"
-        data-aos-anchor-placement="bottom-bottom"
+        data-aos-anchor-placement="top-center"
       >
         <p>
           Como Desarrollador Web Full Stack, cuento con amplia experiencia en

@@ -7,7 +7,11 @@ const Skills = () => {
       <div class="skills-title" id="techSkills">
         <p>Habilidades Tecnicas</p>
       </div>
-      <div class="iconos" data-aos="fade-right">
+      <div
+        class="iconos"
+        data-aos="fade-right"
+        data-aos-anchor-placement="top-bottom"
+      >
         <p title="HTML">
           <Icon className="ic" icon="vscode-icons:file-type-html" />
         </p>
