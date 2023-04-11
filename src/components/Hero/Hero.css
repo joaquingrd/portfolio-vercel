@@ -72,6 +72,7 @@
     font-family: Libre Baskervill;
     text-align: center;
     margin: auto;
+    margin-left: 11vw;
   }
 
   .hero-title {
@@ -81,10 +82,10 @@
   .hero-title2 {
     font-size: 5vw;
     font-weight: 700;
-    color: #bffa37;
+    color: white;
   }
   .hero-subtitle {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
   /*CONTENEDOR IMAGEN*/
@@ -94,8 +95,9 @@
     display: flex;
     justify-content: center;
     padding-top: 1vw;
-
     padding: auto;
+    margin-left: 7vw;
+    margin-bottom: 5vw;
   }
   .contenedor2 .hero-image {
     width: 1vw;
