@@ -50,6 +50,10 @@
   opacity: 0;
 }
 
+.div-img {
+  opacity: 0;
+}
+
 /*RESPONSIVE*/
 @media screen and (max-width: 991px) {
   /*CONTENEDOR TEXTO*/
@@ -86,10 +90,12 @@
   /*CONTENEDOR IMAGEN*/
   .contenedor2 {
     min-width: 100%;
-    min-height: 50vw;
+    min-height: 65vw;
     display: flex;
     justify-content: center;
-    padding-top: 2vw;
+    padding-top: 1vw;
+
+    padding: auto;
   }
   .contenedor2 .hero-image {
     width: 1vw;
@@ -97,12 +103,24 @@
     position: relative;
     opacity: -2;
   }
-
-  .hero-image1 {
+  .div-img {
+    opacity: 1;
+    background-color: #272733;
     width: 60vw;
     height: 60vw;
-    position: relative;
     margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .hero-image1 {
+    width: 63vw;
+    height: 63vw;
+    display: flex;
+    margin-top: -3vw;
+    margin-left: -2vw;
     opacity: 1;
+    border-radius: 54%;
   }
 }
