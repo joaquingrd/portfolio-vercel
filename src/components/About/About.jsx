@@ -4,7 +4,11 @@ import { Icon } from "@iconify/react";
 const About = () => {
   return (
     <section class="about" id="about">
-      <div class="about-text1" data-aos="fade-right">
+      <div
+        class="about-text1"
+        data-aos="fade-right"
+        data-aos-anchor-placement="bottom-bottom"
+      >
         <p>
           Como Desarrollador Web Full Stack, cuento con amplia experiencia en
           diversas tecnologías como{" "}
