@@ -210,7 +210,7 @@ const Projects = () => {
 
           <div class="project-body">
             <div class="project-name">
-              <h2>Countries App - Full Stack</h2>
+              <h2>Countries - Full Stack</h2>
             </div>
             {/* MODAL */}
 
@@ -270,6 +270,9 @@ const Projects = () => {
                       Las tecnologías utilizadas incluyen JavaScript, React,
                       Redux, NodeJS, Express, Sequelize, PostgreSQL.
                     </b>
+                  </div>
+                  <div class="modal-body">
+                    <b>NO RESPONSIVE.</b>
                   </div>
 
                   <div class="btn-group">
@@ -407,6 +410,9 @@ const Projects = () => {
                       Las tecnologías utilizadas incluyen JavaScript, React,
                       Redux, HTML5 y CSS3.
                     </b>
+                  </div>
+                  <div class="modal-body">
+                    <b>NO RESPONSIVE.</b>
                   </div>
 
                   <div class="btn-group">
@@ -650,6 +656,9 @@ const Projects = () => {
                       Las tecnologías utilizadas incluyen HTML5, CSS3 y React
                       JS.
                     </b>
+                  </div>
+                  <div class="modal-body">
+                    <b>NO RESPONSIVE.</b>
                   </div>
 
                   <div class="btn-group">
