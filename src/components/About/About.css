@@ -13,8 +13,8 @@
 .about-text1 {
   padding: 0.5vw;
 
-  font-size: 1.5vw;
-  max-width: 55vw;
+  font-size: 1.3vw;
+  max-width: 52vw;
   background-color: #272733;
   position: relative;
   margin: 2vw auto 2vw auto;
@@ -24,9 +24,9 @@
 
 .about-text2 {
   padding: 0.5vw;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   background-color: #272733;
-  max-width: 55vw;
+  max-width: 52vw;
   position: relative;
   margin: auto auto 2vw;
   left: 10vw;
