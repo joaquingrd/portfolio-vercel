@@ -411,21 +411,21 @@ const Projects = () => {
 
                   <div class="btn-group">
                     <a
-                      href="https://github.com/joaquingrd/appRickandMortyM2"
+                      href="https://github.com/joaquingrd/RickAndMorty-Vercel"
                       class="btn btn-secondary"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
                       GitHub
                     </a>
-                    {/* <a
-                      href="https://pi-countries-two.vercel.app/"
+                    <a
+                      href="https://rick-and-morty-vercel-joaquingrd.vercel.app/"
                       class="btn btn-secondary"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
                       Deploy
-                    </a> */}
+                    </a>
                   </div>
                 </div>
               </div>
@@ -539,14 +539,14 @@ const Projects = () => {
                     >
                       GitHub
                     </a>
-                    {/* <a
-                      href="https://pi-countries-two.vercel.app/"
+                    <a
+                      href="https://joaquingrd.github.io/"
                       class="btn btn-secondary"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
                       Deploy
-                    </a> */}
+                    </a>
                   </div>
                 </div>
               </div>
@@ -654,21 +654,21 @@ const Projects = () => {
 
                   <div class="btn-group">
                     <a
-                      href="https://github.com/joaquingrd/projectFCC1/tree/main/mi-app-clonessssss"
+                      href="https://github.com/joaquingrd/clone-fCC-vercel"
                       class="btn btn-secondary"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
                       GitHub
                     </a>
-                    {/* <a
-                      href="https://pi-countries-two.vercel.app/"
+                    <a
+                      href="https://clone-f-cc-vercel.vercel.app/"
                       class="btn btn-secondary"
                       rel="noopener noreferrer"
                       target="_blank"
                     >
                       Deploy
-                    </a> */}
+                    </a>
                   </div>
                 </div>
               </div>
