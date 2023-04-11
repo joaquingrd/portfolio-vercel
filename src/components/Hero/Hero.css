@@ -69,7 +69,8 @@
 
   .hero-text {
     width: 80%;
-    font-family: Libre Baskervill;
+    font-family: Libre Baskervill, Impact, Haettenschweiler, "Arial Narrow Bold",
+      sans-serif;
     text-align: center;
     margin: auto;
     margin-left: 11vw;
