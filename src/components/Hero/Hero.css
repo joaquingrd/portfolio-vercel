@@ -94,10 +94,10 @@
     min-height: 65vw;
     display: flex;
     justify-content: center;
-    padding-top: 1vw;
+    padding-top: -1vw;
     padding: auto;
     margin-left: 7vw;
-    margin-bottom: 5vw;
+    margin-bottom: 10vw;
   }
   .contenedor2 .hero-image {
     width: 1vw;
