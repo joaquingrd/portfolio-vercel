@@ -7,7 +7,7 @@ const About = () => {
       <div
         class="about-text1"
         data-aos="fade-right"
-        data-aos-anchor-placement="top-center"
+        data-aos-anchor-placement="bottom-bottom"
       >
         <p>
           Como Desarrollador Web Full Stack, cuento con amplia experiencia en
@@ -22,7 +22,11 @@ const About = () => {
         </p>
       </div>
 
-      <div class="about-text2" data-aos="fade-left">
+      <div
+        class="about-text2"
+        data-aos="fade-left"
+        data-aos-anchor-placement="center-bottom"
+      >
         <p>
           Soy una persona
           <b> comunicativa, analítica y organizada</b>, con una gran capacidad
