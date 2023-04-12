@@ -13,7 +13,7 @@
 
 /*CONTENEDOR TEXTO*/
 .contenedor1 {
-  padding-top: 20vw;
+  padding-top: 16vw;
   background-color: #272733;
   height: 46vw;
 }
@@ -40,14 +40,14 @@
 
 /*CONTENEDOR IMAGEN*/
 .contenedor2 {
-  padding-top: 13vw;
+  padding-top: 10vw;
   height: 46vw;
 }
 .hero-image {
   width: 25vw;
   position: absolute;
   border-radius: 50%;
-  margin-left: -14vw;
+  margin-left: -13vw;
 }
 
 .hero-image1 {
