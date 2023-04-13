@@ -13,7 +13,7 @@
 
 /*CONTENEDOR TEXTO*/
 .contenedor1 {
-  padding-top: 16vw;
+  padding-top: 12vw;
   background-color: #272733;
   height: 46vw;
 }
@@ -58,6 +58,17 @@
   opacity: 0;
 }
 
+.descargar {
+  width: 12vw;
+  margin-top: 3.5vw;
+  margin-left: 2vw;
+}
+
+.btn-descargar {
+  width: 12vw;
+  font-size: 1.5vw;
+}
+
 /*RESPONSIVE*/
 @media screen and (max-width: 991px) {
   /*CONTENEDOR TEXTO*/
@@ -68,7 +79,7 @@
   .contenedor1 {
     padding-top: 0vw;
     width: 100%;
-    height: 55vw;
+    height: 60vw;
   }
 
   .hero-text {
@@ -91,6 +102,7 @@
   }
   .hero-subtitle {
     font-size: 5vw;
+    margin-top: 5vw;
   }
 
   /*CONTENEDOR IMAGEN*/
@@ -129,5 +141,20 @@
     margin-left: -2vw;
     opacity: 1;
     border-radius: 54%;
+  }
+
+  .descargar {
+    margin: 0vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-descargar {
+    width: 34vw;
+    font-size: 4vw;
+    font-weight: 700;
+    margin-top: 3vw;
+    color: #bffa37;
   }
 }

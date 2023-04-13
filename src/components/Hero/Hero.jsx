@@ -1,6 +1,7 @@
 import "./Hero.css";
 import Perfil from "../../images/verde.png";
 import Perfil1 from "../../images/transparente.png";
+import CV from "../../pdfs/CVe_Joaquin_RuizDiaz.pdf";
 
 const Hero = () => {
   return (
@@ -12,6 +13,16 @@ const Hero = () => {
             <h1 class="hero-title2">Hola, soy Joaquin Ruiz Diaz</h1>
 
             <h2 class="hero-subtitle">Full Stack Web Developer</h2>
+          </div>
+          <div class="descargar">
+            <a href={CV} target="_blank">
+              <button
+                type="button"
+                class="btn-descargar btn btn-outline-light "
+              >
+                Descargar CV
+              </button>
+            </a>
           </div>
         </div>
         <div class="contenedor2  col-md-3">
