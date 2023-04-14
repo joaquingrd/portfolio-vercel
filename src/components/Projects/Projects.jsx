@@ -3,6 +3,8 @@ import { Icon } from "@iconify/react";
 import Porfolio from "../../images/portfolio.jpg";
 import Porfolio1 from "../../images/portfolio1.jpg";
 import Porfolio2 from "../../images/portfolio2.jpg";
+import Porfolio3 from "../../images/portfolio3.jpg";
+import Porfolio4 from "../../images/portfolio4.jpg";
 import Countries from "../../images/countries.jpg";
 import Countries1 from "../../images/countries1.jpg";
 import Countries2 from "../../images/countries2.jpg";
@@ -41,6 +43,12 @@ const Projects = () => {
               </div>
               <div class="carousel-item">
                 <img src={Porfolio2} class="d-block w-100" alt="Portfolio" />
+              </div>
+              <div class="carousel-item">
+                <img src={Porfolio3} class="d-block w-100" alt="Portfolio" />
+              </div>
+              <div class="carousel-item">
+                <img src={Porfolio4} class="d-block w-100" alt="Portfolio" />
               </div>
             </div>
             <button

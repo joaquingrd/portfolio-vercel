@@ -1,11 +1,12 @@
 .projects {
+  margin-top: 5vw;
   max-width: 100%;
   min-height: 70vw;
   padding: 5vw;
   display: grid;
   grid-template-columns: repeat(2, minmax(42%, 42%));
   justify-content: center;
-  gap: 4vw;
+  gap: 6vw;
 }
 
 article {

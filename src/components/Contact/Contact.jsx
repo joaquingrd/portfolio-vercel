@@ -1,4 +1,5 @@
 import "./Contact.css";
+import CV from "../../pdfs/CVe_Joaquin_RuizDiaz.pdf";
 
 const Contact = () => {
   return (
