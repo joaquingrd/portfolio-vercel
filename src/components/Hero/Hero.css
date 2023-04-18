@@ -107,9 +107,9 @@
   }
 
   .contenedor1 {
-    padding-top: 0vw;
+    padding-top: 5vw;
     width: 100%;
-    height: 60vw;
+    height: 80vw;
   }
 
   .hero-text {
@@ -185,7 +185,7 @@
     width: 34vw;
     font-size: 4vw;
     font-weight: 700;
-    margin-top: 3vw;
+    margin-top: 4.5vw;
     color: #bffa37;
   }
 
@@ -198,7 +198,7 @@
     z-index: 2000;
     padding-right: 1vw;
     position: absolute;
-    top: 1.5vw;
+    top: 1.8vw;
   }
 
   .ic-language {
