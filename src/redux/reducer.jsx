@@ -1,6 +1,6 @@
 import { SELECT_LANGUAGE } from "./actions";
-import data_es from "../data/data_es.json";
-import data_pt from "../data/data_pt.json";
+import data_es from "../Data/data_es.json";
+import data_pt from "../Data/data_pt.json";
 
 const initialState = {
   language: "es",
