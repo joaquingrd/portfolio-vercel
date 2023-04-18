@@ -1,5 +1,5 @@
 import "./Projects.css";
-import { Icon } from "@iconify/react";
+
 import Porfolio from "../../images/portfolio.jpg";
 import Porfolio1 from "../../images/portfolio1.jpg";
 import Porfolio2 from "../../images/portfolio2.jpg";
@@ -98,7 +98,7 @@ const Projects = () => {
             <div
               class="modal fade"
               id="portfolio"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="portfolioLabel"
               aria-hidden="true"
             >
@@ -236,7 +236,7 @@ const Projects = () => {
             <div
               class="modal fade"
               id="countries"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="countriesLabel"
               aria-hidden="true"
             >
@@ -378,7 +378,7 @@ const Projects = () => {
             <div
               class="modal fade"
               id="rick"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="rickLabel"
               aria-hidden="true"
             >
@@ -512,7 +512,7 @@ const Projects = () => {
             <div
               class="modal fade"
               id="bootst"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="bootstrapLevel"
               aria-hidden="true"
             >
@@ -630,7 +630,7 @@ const Projects = () => {
             <div
               class="modal fade"
               id="clon"
-              tabindex="-1"
+              tabIndex="-1"
               aria-labelledby="bootstrapLevel"
               aria-hidden="true"
             >

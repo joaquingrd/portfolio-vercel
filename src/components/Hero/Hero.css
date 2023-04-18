@@ -9,8 +9,6 @@
   align-items: center;
   justify-content: center;
   height: 46vw;
-  scroll-snap-type: y mandatory;
-  scroll-snap-align: start;
 }
 
 /*CONTENEDOR TEXTO*/
@@ -42,7 +40,7 @@
 
 /*CONTENEDOR IMAGEN*/
 .contenedor2 {
-  padding-top: 10vw;
+  padding-top: 0vw;
   height: 46vw;
 }
 .hero-image {
@@ -50,6 +48,7 @@
   position: absolute;
   border-radius: 50%;
   margin-left: -13vw;
+  margin-top: 4vw;
 }
 
 .hero-image1 {
@@ -60,6 +59,8 @@
   opacity: 0;
 }
 
+/* DESCARGAR */
+
 .descargar {
   width: 12vw;
   margin-top: 3.5vw;
@@ -69,6 +70,33 @@
 .btn-descargar {
   width: 12vw;
   font-size: 1.5vw;
+}
+
+/* LENGUAJE */
+
+.language-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  z-index: 2000;
+  padding-right: 1vw;
+}
+
+.language-btn {
+  border: none;
+  width: 4vw;
+  height: 4vw;
+  padding: 0%;
+
+  z-index: 2000;
+  background-color: rgba(0, 0, 255, 0);
+}
+
+.ic-language {
+  padding: 0%;
+
+  width: 3vw;
+  height: 3vw;
 }
 
 /*RESPONSIVE*/

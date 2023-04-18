@@ -1,11 +1,18 @@
 import "./Skills.css";
 import { Icon } from "@iconify/react";
+import { useSelector } from "react-redux";
+import React from "react";
 
 const Skills = () => {
+  const language = useSelector((state) => state.language);
+  console.log("Language = " + language + " About");
+
+  const skillsData = useSelector((state) => state.data);
+
   return (
     <section class="Skills">
       <div class="skills-title" id="techSkills">
-        <p>Habilidades Tecnicas</p>
+        <p>{skillsData.titleSkills}</p>
       </div>
       <div
         class="iconos"

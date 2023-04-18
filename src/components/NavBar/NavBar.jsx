@@ -1,7 +1,14 @@
 import React from "react";
 import "./NavBar.css";
+import { useSelector } from "react-redux";
+import { Icon } from "@iconify/react";
 
 const NavBar = () => {
+  const language = useSelector((state) => state.language);
+  console.log("Language = " + language + " About");
+
+  const navBarData = useSelector((state) => state.data);
+
   return (
     <section class="navBar">
       <nav class="navbar navbar-expand-sd ">
@@ -21,19 +28,19 @@ const NavBar = () => {
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link " aria-current="page" href="#inicio">
-                  Inicio
+                  {navBarData.nav1}
                 </a>
                 <a class="nav-link" href="#about">
-                  Sobre mi
+                  {navBarData.nav2}
                 </a>
                 <a class="nav-link" href="#techSkills">
-                  Skills
+                  {navBarData.nav3}
                 </a>
                 <a class="nav-link" href="#project">
-                  Proyectos
+                  {navBarData.nav4}
                 </a>
                 <a class="nav-link" href="#contact">
-                  Contacto
+                  {navBarData.nav5}
                 </a>
               </li>
             </ul>

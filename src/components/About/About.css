@@ -4,27 +4,28 @@
 }
 
 .about {
-  padding-top: 5.5vw;
+  padding-top: 5vw;
   width: 100%;
   min-height: 44vw;
   color: white;
 }
 
 .about-text1 {
-  padding: 0.5vw;
-
-  font-size: 1.3vw;
+  padding: 1vw 0.5vw 0.1vw 0.5vw;
+  font-size: 1.5vw;
   max-width: 52vw;
   background-color: #272733;
   position: relative;
   margin: 2vw auto 2vw auto;
   right: 10vw;
   border-radius: 20px;
+  text-align: center;
+  font-family: Libre Baskervill;
 }
 
 .about-text2 {
-  padding: 0.5vw;
-  font-size: 1.3vw;
+  padding: 1vw 0.5vw 0.1vw 0.5vw;
+  font-size: 1.5vw;
   background-color: #272733;
   max-width: 52vw;
   position: relative;
@@ -32,6 +33,7 @@
   left: 10vw;
   border-radius: 20px;
   text-align: center;
+  font-family: Libre Baskervill;
 }
 
 /*RESPONSIVE*/

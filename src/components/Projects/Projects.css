@@ -10,7 +10,7 @@
 }
 
 article {
-  --img-scale: 1.001;
+  --img-scale: 1.004;
   --link-icon-translate: -20px;
   --link-icon-opacity: 0;
   position: relative;

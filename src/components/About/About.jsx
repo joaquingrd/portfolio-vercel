@@ -1,7 +1,13 @@
 import "./About.css";
-import { Icon } from "@iconify/react";
+import { useSelector } from "react-redux";
+import React from "react";
 
 const About = () => {
+  const language = useSelector((state) => state.language);
+  console.log("Language = " + language + " About");
+
+  const AboutData = useSelector((state) => state.data);
+
   return (
     <section class="about" id="about">
       <div
@@ -10,15 +16,12 @@ const About = () => {
         data-aos-anchor-placement="bottom-bottom"
       >
         <p>
-          Como Desarrollador Web Full Stack, cuento con amplia experiencia en
-          diversas tecnologías como{" "}
-          <b>
-            Javascript, EcmaScript 6, React, Redux, Node.js, Express,
-            PostgreSQL, Sequelize, HTML5, CSS3 y TypeScript.{" "}
-          </b>
-          Además, estoy familiarizado con herramientas de trabajo colaborativo
-          como <b>Git, GitHub, Slack y Trello</b>, y he trabajado en equipos
-          ágiles bajo <b>metodologías Scrum</b>.
+          {AboutData.text1}
+          <b>{AboutData.text2}</b>
+          {AboutData.text3}
+          <b>{AboutData.text4}</b>
+          {AboutData.text5}
+          <b>{AboutData.text6}</b>.
         </p>
       </div>
 
@@ -28,13 +31,10 @@ const About = () => {
         data-aos-anchor-placement="center-bottom"
       >
         <p>
-          Soy una persona
-          <b> comunicativa, analítica y organizada</b>, con una gran capacidad
-          para <b>adaptarme</b> a diferentes situaciones y{" "}
-          <b>trabajar en equipo</b>. <b>Disfruto aprendiendo</b> y estoy
-          <b> constantemente en busca de nuevos conocimientos</b>, tecnologías y
-          metodologías de trabajo eficientes para seguir desarrollándome y
-          creciendo en mi carrera profesional.
+          {AboutData.text7}
+          <b> {AboutData.text8}</b>
+          {AboutData.text9}
+          <b>{AboutData.text10}</b> {AboutData.text11}
         </p>
       </div>
     </section>
