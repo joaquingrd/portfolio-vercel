@@ -1,11 +1,17 @@
 import "./Contact.css";
-import CV from "../../pdfs/CVe_Joaquin_RuizDiaz.pdf";
+import React from "react";
+import { useSelector } from "react-redux";
 
 const Contact = () => {
+  const language = useSelector((state) => state.language);
+  console.log("Language = " + language + " About");
+
+  const ContactData = useSelector((state) => state.data);
+
   return (
     <section className="Contact" id="contact">
       <div className="skills-title">
-        <p>Contacto</p>
+        <p>{ContactData.contact}</p>
       </div>
       <div className="contact-icon">
         <a
