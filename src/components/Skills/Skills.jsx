@@ -10,12 +10,12 @@ const Skills = () => {
   const skillsData = useSelector((state) => state.data);
 
   return (
-    <section class="Skills">
-      <div class="skills-title" id="techSkills">
+    <section className="Skills">
+      <div className="skills-title" id="techSkills">
         <p>{skillsData.titleSkills}</p>
       </div>
       <div
-        class="iconos"
+        className="iconos"
         data-aos="fade-right"
         data-aos-anchor-placement="top-bottom"
       >
@@ -35,7 +35,7 @@ const Skills = () => {
           <Icon className="ic" icon="logos:typescript-icon" />
         </p>
       </div>
-      <div class="iconos" data-aos="fade-left">
+      <div className="iconos" data-aos="fade-left">
         <p title="React JS">
           <Icon className="ic" icon="logos:react" />
         </p>
@@ -55,7 +55,7 @@ const Skills = () => {
           <Icon className="ic" icon="skill-icons:sequelize-light" />
         </p>
       </div>
-      <div class="iconos" data-aos="fade-right">
+      <div className="iconos" data-aos="fade-right">
         <p title="git">
           <Icon className="ic icono-git" icon="mdi:git" />
         </p>

@@ -1,0 +1,94 @@
+[
+  {
+    "carruselId": "carruselPorfolio",
+    "imgActive": "portfolio",
+    "img": [
+      { "name": "portfolio1" },
+      { "name": "portfolio2" },
+      { "name": "portfolio3" },
+      { "name": "portfolio4" }
+    ],
+    "projectName": "Porfolio",
+    "modalId": "portfolio",
+    "modalTitle": "Portfolio",
+    "text1": "Para diseñar la interfaz gráfica, fue utilizado HTML5, CSS3 y Bootrsap para establecer el estilo y diseño visual, luego agregué funcionalidad interactiva utilizando JavaScript para crear animaciones, transiciones y efectos visuales. Para mejorar la eficiencia y escalabilidad del sitio, integré la biblioteca de React. Además, aseguré que el sitio fuera completamente responsive para su acceso desde cualquier dispositivo.",
+    "text2": "Este proyecto fue una gran oportunidad para demostrar mis habilidades en diseño web y programación, así como para demostrar mi creatividad e innovación en la creación de soluciones técnicas.",
+    "text3": "Se utilizaron componentes basados en estándares para garantizar la calidad y la compatibilidad de la App.",
+    "text4": "Las tecnologías utilizadas incluyen HTML5, CSS3 y Bootrsap, JavaScript, React, Redux.",
+    "text5": "RESPONSIVE.",
+    "github": "https://github.com/joaquingrd/portfolio-vercel",
+    "deploy": "https://portfolio-joaquinrd.vercel.app/"
+  },
+  {
+    "carruselId": "carruselCountries",
+    "imgActive": "countries",
+    "img": [
+      { "name": "countries1" },
+      { "name": "countries2" },
+      { "name": "countries3" },
+      { "name": "countries4" },
+      { "name": "countries5" },
+      { "name": "countries6" }
+    ],
+    "projectName": "Countries - Full Stack",
+    "modalId": "countries",
+    "modalTitle": "Countries App",
+    "text1": " Se diseñó y desarrolló una App interactiva de países que incluyó una landing page, home page con las cartas de los países y sus banderas, y una pagina de detalle por cada país.",
+    "text2": "Las funcionalidades incluian paginado, búsquedas por nombre o ID, filtrados combinados para los países y para las actividades turísticas, ordenamiento alfabético y/o por número de habitantes, formulario para la creación de nuevas actividades turísticas.",
+    "text3": "Se utilizaron componentes basados en estándares para garantizar la calidad y la compatibilidad de la App.",
+    "text4": "Las tecnologías utilizadas incluyen JavaScript, React, Redux, NodeJS, Express, Sequelize, PostgreSQL.",
+    "text5": "NO RESPONSIVE.",
+    "github": "https://github.com/joaquingrd/PI-Countries-Joaquin-Ruiz-Diaz",
+    "deploy": "https://pi-countries-two.vercel.app/"
+  },
+  {
+    "carruselId": "carruselRick",
+    "imgActive": "rick",
+    "img": [
+      { "name": "rick1" },
+      { "name": "rick2" },
+      { "name": "rick3" },
+      { "name": "rick4" }
+    ],
+    "projectName": "Rick & Morty - Front end",
+    "modalId": "rick",
+    "modalTitle": "Rick & Morty",
+    "text1": " Se diseñó y desarrolló una App interactiva consumiendo los datos de la API de Rick & Morty. Incluia un landing page, home page con las cartas de los personajes, detail page con los datos y fotos de los personajes.",
+    "text2": "Las funcionalidades incluian búsquedas por nombre o ID y formulario para la creación de nuevos personajes.",
+    "text3": "Se utilizaron componentes basados en estándares para garantizar la calidad y la compatibilidad de la App.",
+    "text4": "Las tecnologías utilizadas incluyen JavaScript, React, Redux, HTML5 y CSS3.",
+    "text5": "NO RESPONSIVE.",
+    "github": "https://github.com/joaquingrd/RickAndMorty-Vercel",
+    "deploy": "https://rick-and-morty-vercel-joaquingrd.vercel.app/"
+  },
+  {
+    "carruselId": "carruselBootstrap",
+    "imgActive": "bootstrap",
+    "img": [{ "name": "bootstrap1" }, { "name": "bootstrap2" }],
+    "projectName": "Bootstrap",
+    "modalId": "bootstrap",
+    "modalTitle": "Bootstrap",
+    "text1": "Este proyecto simple fue creado como parte de un curso de Bootstrap. Se trata de un sitio web responsivo que tiene como objetivo mostrar el portfolio de proyectos de un programador, así como su experiencia en el uso de Bootstrap.",
+    "text2": "",
+    "text3": "",
+    "text4": "Las tecnologías utilizadas incluyen HTML5, CSS3, Bootstrap5 y JavaScript.",
+    "text5": "NO RESPONSIVE.",
+    "github": "https://github.com/joaquingrd/bootstrapfCC",
+    "deploy": "https://joaquingrd.github.io/"
+  },
+  {
+    "carruselId": "carruselClone",
+    "imgActive": "clone",
+    "img": [{ "name": "clone1" }],
+    "projectName": "Clon React JS",
+    "modalId": "clon",
+    "modalTitle": "Clon React JS",
+    "text1": " Para reforzar mis conocimientos en React JS, decidí clonar una página web como parte de un curso de freeCodeCamp. Durante este proyecto, pude aplicar y conectar los conceptos aprendidos sobre React, mientras que también adquiría nuevas habilidades en CSS y mejoraba mis prácticas de desarrollo. El objetivo fue mejorar la presentación visual del sitio web y crear una experiencia de usuario más atractiva y funcional.",
+    "text2": "",
+    "text3": "",
+    "text4": "Las tecnologías utilizadas incluyen HTML5, CSS3, JavaScript y React.",
+    "text5": "NO RESPONSIVE.",
+    "github": "https://github.com/joaquingrd/clone-fCC-vercel",
+    "deploy": "https://clone-f-cc-vercel.vercel.app/"
+  }
+]

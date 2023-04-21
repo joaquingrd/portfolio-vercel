@@ -10,11 +10,11 @@ const NavBar = () => {
   const navBarData = useSelector((state) => state.data);
 
   return (
-    <section class="navBar">
-      <nav class="navbar navbar-expand-sd ">
-        <div class="container-fluid">
+    <section className="navBar">
+      <nav className="navbar navbar-expand-sd ">
+        <div className="container-fluid">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -22,24 +22,24 @@ const NavBar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#inicio">
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link " aria-current="page" href="#inicio">
                   {navBarData.nav1}
                 </a>
-                <a class="nav-link" href="#about">
+                <a className="nav-link" href="#about">
                   {navBarData.nav2}
                 </a>
-                <a class="nav-link" href="#techSkills">
+                <a className="nav-link" href="#techSkills">
                   {navBarData.nav3}
                 </a>
-                <a class="nav-link" href="#project">
+                <a className="nav-link" href="#project">
                   {navBarData.nav4}
                 </a>
-                <a class="nav-link" href="#contact">
+                <a className="nav-link" href="#contact">
                   {navBarData.nav5}
                 </a>
               </li>

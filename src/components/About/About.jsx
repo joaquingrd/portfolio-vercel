@@ -9,9 +9,9 @@ const About = () => {
   const AboutData = useSelector((state) => state.data);
 
   return (
-    <section class="about" id="about">
+    <section className="about" id="about">
       <div
-        class="about-text1"
+        className="about-text1"
         data-aos="fade-right"
         data-aos-anchor-placement="bottom-bottom"
       >
@@ -26,7 +26,7 @@ const About = () => {
       </div>
 
       <div
-        class="about-text2"
+        className="about-text2"
         data-aos="fade-left"
         data-aos-anchor-placement="center-bottom"
       >
