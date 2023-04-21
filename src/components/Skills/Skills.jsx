@@ -4,9 +4,6 @@ import { useSelector } from "react-redux";
 import React from "react";
 
 const Skills = () => {
-  const language = useSelector((state) => state.language);
-  console.log("Language = " + language + " About");
-
   const skillsData = useSelector((state) => state.data);
 
   return (

@@ -5,13 +5,9 @@ import React from "react";
 import Project from "../Project/Project";
 
 const Projects = () => {
-  const language = useSelector((state) => state.language);
-  console.log("Language = " + language + " Projects");
   const data = useSelector((state) => state.data);
-  console.log(data.btnModal);
 
   const projectData = useSelector((state) => state.projects);
-  console.log(projectData);
   return (
     <section className="projects" id="project">
       {projectData.map((character) => {

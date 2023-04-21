@@ -4,9 +4,6 @@ import { useSelector } from "react-redux";
 import { Icon } from "@iconify/react";
 
 const NavBar = () => {
-  const language = useSelector((state) => state.language);
-  console.log("Language = " + language + " About");
-
   const navBarData = useSelector((state) => state.data);
 
   return (

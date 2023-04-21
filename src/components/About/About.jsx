@@ -3,9 +3,6 @@ import { useSelector } from "react-redux";
 import React from "react";
 
 const About = () => {
-  const language = useSelector((state) => state.language);
-  console.log("Language = " + language + " About");
-
   const AboutData = useSelector((state) => state.data);
 
   return (

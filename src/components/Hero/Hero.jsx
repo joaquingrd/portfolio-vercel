@@ -11,7 +11,7 @@ import React, { useState } from "react";
 const Hero = () => {
   const [lastLanguage, setLastLanguage] = useState("es"); // estado local para recordar el último idioma seleccionado
   const language = useSelector((state) => state.language);
-  console.log("Language = " + language + " Hero");
+
   const dispatch = useDispatch();
 
   const handleLanguageChange = () => {

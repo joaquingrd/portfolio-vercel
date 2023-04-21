@@ -20,6 +20,10 @@ import bootstrap1 from "./bootstrap2.jpg";
 import bootstrap2 from "./bootstrap3.jpg";
 import clone from "./clone.jpg";
 import clone1 from "./clone1.jpg";
+import flor1 from "./flor1.jpeg";
+
+import dayse from "./dayse.jpeg";
+import joaquin from "./joaquin.jpeg";
 
 const pictures = {
   portfolio,
@@ -44,6 +48,9 @@ const pictures = {
   bootstrap2,
   clone,
   clone1,
+  flor1,
+  dayse,
+  joaquin,
 };
 
 export default pictures;
