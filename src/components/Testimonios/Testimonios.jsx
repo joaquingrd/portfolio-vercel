@@ -1,5 +1,5 @@
 import "./Testimonios.css";
-
+import { Icon } from "@iconify/react";
 import { useSelector } from "react-redux";
 import React from "react";
 
@@ -13,7 +13,10 @@ const Testimonios = () => {
   return (
     <section className="Testimonios">
       <div className="testimonio-title">
-        <h3>{data.testimoniosTitle}</h3>
+        <h3 className="testi-title">
+          {data.testimoniosTitle}
+          <Icon icon="bi:linkedin" color="#0077b5" width="30" />{" "}
+        </h3>
       </div>
 
       <div
@@ -23,7 +26,7 @@ const Testimonios = () => {
       >
         <div class="carousel-inner">
           <div class="carousel-item active " data-bs-interval="8000">
-            <div className="container">
+            <div className="container carrusel-testimonio-item">
               <img
                 src={pictures[testimoniosData.active.img]}
                 class="d-block w-5 testimonio-imagen"
@@ -33,12 +36,12 @@ const Testimonios = () => {
               <h5 className="testimonio-text">
                 {testimoniosData.active.text1}
               </h5>
-              <h6 className="testimonio-name">{testimoniosData.active.name}</h6>
+              <h5 className="testimonio-name">{testimoniosData.active.name}</h5>
             </div>
           </div>
           {testimoniosData.pasive.map((testimonio) => (
-            <div className="carousel-item " data-bs-interval="8000">
-              <div className="container">
+            <div className="carousel-item" data-bs-interval="8000">
+              <div className="container carrusel-testimonio-item">
                 <img
                   src={pictures[testimonio.img]}
                   class="d-block w-5 testimonio-imagen"

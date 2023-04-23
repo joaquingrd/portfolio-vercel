@@ -2,19 +2,19 @@
   "active": {
     "name": "Dayse Borges",
     "img": "dayse",
-    "text1": "Joaquin é um profissional extremamente focado, analítico e está sempre buscando aperfeiçoar os processos e buscar novos conhecimentos. É uma excelente pessoa e sempre está predisposto a ajudar."
+    "text1": "\"Joaquin es un profesional extremadamente enfocado y analítico que siempre busca mejorar los procesos y adquirir nuevos conocimientos. Es una excelente persona y siempre está dispuesto a ayudar.\""
   },
 
   "pasive": [
     {
       "name": "Florencia Banco Cano",
       "img": "flor1",
-      "text1": "Joaquin es una persona muy respetuosa, comprometida, dedicada y participativa. Su esfuerzo y compromiso es notable! Gran profesional y persona."
+      "text1": "\"Joaquin es una persona muy respetuosa, comprometida, dedicada y participativa. Su esfuerzo y compromiso es notable! Gran profesional y persona.\""
     },
     {
       "name": "Joaquin Delgado",
       "img": "joaquin",
-      "text1": "Joaquin es una persona que siempre esta dispuesto a trabajar y aportar nuevas ideas. Es una persona decidida y enfocada en sus objetivos, ademas de ser un gran compañero."
+      "text1": "\"Joaquin es una persona que siempre esta dispuesto a trabajar y aportar nuevas ideas. Es una persona decidida y enfocada en sus objetivos, ademas de ser un gran compañero.\""
     }
   ]
 }

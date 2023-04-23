@@ -1,20 +1,31 @@
 .Contact {
-  margin-top: 5vw;
+  margin: 0px;
   background-color: #272733;
-  height: 15vw;
+  height: 7.7vw;
   display: block;
 }
 
+.contact-title {
+  width: 100%;
+  font-family: Libre Baskervill;
+  font-size: 2vw;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  margin: 0px;
+}
+
 .contact-icon {
+  margin-top: -1.2vw;
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 6vw;
+  height: 4.7vw;
   gap: 6vw;
 }
 
 .icon {
-  font-size: 4vw;
+  font-size: 3vw;
   color: aliceblue;
   transition: 0.2s;
 }
@@ -35,20 +46,38 @@
 .bi-envelope:hover {
   color: #43a9f1;
 }
+.bi-github:hover {
+  color: #eaf86c;
+}
 
 @media screen and (max-width: 701px) {
   .Contact {
     margin-top: 3vw;
-    height: 38vw;
+    padding-top: 2vw;
+    height: 24vw;
   }
   .contact-title {
-    font-size: 5vw;
-    margin-bottom: 6vw;
+    font-size: 4.5vw;
   }
   .contact-icon {
+    margin-top: -3vw;
     gap: 12vw;
   }
   .icon {
-    font-size: 8vw;
+    font-size: 6vw;
+  }
+  .bi-linkedin {
+    color: #0a66c2;
+  }
+
+  .bi-whatsapp {
+    color: #22d440;
+  }
+
+  .bi-envelope {
+    color: #43a9f1;
+  }
+  .bi-github {
+    color: #e8f858;
   }
 }
