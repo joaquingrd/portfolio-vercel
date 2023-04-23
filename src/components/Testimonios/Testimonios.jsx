@@ -21,15 +21,15 @@ const Testimonios = () => {
 
       <div
         id="carouselTestimonios"
-        class="carousel slide carrusel-testimonio"
+        className="carousel slide carrusel-testimonio"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
-          <div class="carousel-item active " data-bs-interval="8000">
+        <div className="carousel-inner">
+          <div className="carousel-item active " data-bs-interval="8000">
             <div className="container carrusel-testimonio-item">
               <img
                 src={pictures[testimoniosData.active.img]}
-                class="d-block w-5 testimonio-imagen"
+                className="d-block w-5 testimonio-imagen"
                 alt="..."
               />
 
@@ -44,7 +44,7 @@ const Testimonios = () => {
               <div className="container carrusel-testimonio-item">
                 <img
                   src={pictures[testimonio.img]}
-                  class="d-block w-5 testimonio-imagen"
+                  className="d-block w-5 testimonio-imagen"
                   alt="name"
                 />
                 <h5 className="testimonio-text">{testimonio.text1}</h5>
@@ -55,22 +55,28 @@ const Testimonios = () => {
         </div>
 
         <button
-          class="carousel-control-prev"
+          className="carousel-control-prev"
           type="button"
           data-bs-target="#carouselTestimonios"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button
-          class="carousel-control-next"
+          className="carousel-control-next"
           type="button"
           data-bs-target="#carouselTestimonios"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
     </section>

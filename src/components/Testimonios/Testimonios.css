@@ -45,12 +45,13 @@
 @media screen and (max-width: 960px) {
   .Testimonios {
     min-height: 120vw;
-
     padding: 0%;
   }
 
   .testi-title {
     font-size: 6vw;
+    padding: 0 12vw 0 12vw;
+    margin-bottom: 5vw;
   }
 
   .carrusel-testimonio {
