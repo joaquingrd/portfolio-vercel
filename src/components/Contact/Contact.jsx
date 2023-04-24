@@ -3,12 +3,12 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 const Contact = () => {
-  const ContactData = useSelector((state) => state.data);
+  const contactData = useSelector((state) => state.data);
 
   return (
     <section className="Contact" id="contact">
       <div className="contact-title">
-        <p>{ContactData.contact}</p>
+        <p>{contactData.contact}</p>
       </div>
       <div className="contact-icon">
         <a
@@ -28,7 +28,7 @@ const Contact = () => {
           <i className="icon bi bi-github"></i>
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=5491160327735&text=Hola+Joaquin%21+Me+interesa+tu+perfil+como+Full-Stack+Developer&type=phone_number&app_absent=0"
+          href={`https://api.whatsapp.com/send/?phone=5491160327735&text=${contactData.message}&type=phone_number&app_absent=0`}
           rel="noopener noreferrer"
           target="_blank"
           title="+54 11 6032 7735"
@@ -36,7 +36,7 @@ const Contact = () => {
           <i className="icon bi bi-whatsapp"></i>
         </a>
         <a
-          href="mailto:joaquing.ruizdiaz@gmail.com?subject=Portfolio - Full Stack Developer&body=Hola Joaquin, vi tu portfolio y me gustaria marcar una entrevista para conocerte un poco mas."
+          href={`mailto:joaquing.ruizdiaz@gmail.com?subject=Portfolio - Full Stack Developer&body=${contactData.message}`}
           title="joaquing.ruizdiaz@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
