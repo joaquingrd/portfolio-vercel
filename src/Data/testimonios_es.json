@@ -2,7 +2,7 @@
   "active": {
     "name": "Dayse Borges",
     "img": "dayse",
-    "text1": "\"Joaquin es un profesional extremadamente enfocado y analítico que siempre busca mejorar los procesos y adquirir nuevos conocimientos. Es una excelente persona y siempre está dispuesto a ayudar.\""
+    "text1": "\"Joaquin es un profesional extremadamente enfocado y analítico que siempre busca mejorar los procesos y adquirir nuevos conocimientos. Es una excelente persona...\""
   },
 
   "pasive": [
@@ -15,6 +15,21 @@
       "name": "Joaquin Delgado",
       "img": "joaquin",
       "text1": "\"Joaquin es una persona que siempre esta dispuesto a trabajar y aportar nuevas ideas. Es una persona decidida y enfocada en sus objetivos, ademas de ser un gran compañero.\""
+    },
+    {
+      "name": "Monica Schettino",
+      "img": "monica",
+      "text1": "\"Joaquín es una de esas personas que todo equipo IT quiere tener! La curiosidad por aprender, el deseo de auto superarse, las metas claras y la tenacidad lo caracterizan...\""
+    },
+    {
+      "name": "Monica Schettino",
+      "img": "monica",
+      "text1": "\"...Sabés que contás con él y tenés la certeza de que cumple con los objetivos en tiempo y forma...\""
+    },
+    {
+      "name": "Monica Schettino",
+      "img": "monica",
+      "text1": "\"...Perseverante, analítico, orientado a resultados. Es un recurso valioso que sumará muchísimo tanto a nivel laboral y humano\""
     }
   ]
 }
