@@ -21,7 +21,7 @@ import bootstrap2 from "./bootstrap3.jpg";
 import clone from "./clone.jpg";
 import clone1 from "./clone1.jpg";
 import flor1 from "./flor1.jpeg";
-
+import monica from "./monica.jpeg";
 import dayse from "./dayse.jpeg";
 import joaquin from "./joaquin.jpeg";
 
@@ -49,6 +49,7 @@ const pictures = {
   clone,
   clone1,
   flor1,
+  monica,
   dayse,
   joaquin,
 };
