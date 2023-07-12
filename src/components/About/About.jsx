@@ -14,15 +14,15 @@ const About = () => {
       >
         <p>
           {AboutData.text1}
-          <b>{AboutData.text2}</b>
+          <b className="b">{AboutData.text2}</b>
           {AboutData.text3}
-          <b>{AboutData.text4}</b>
+          <b className="b">{AboutData.text4}</b>
           {AboutData.text5}
-          <b>{AboutData.text6}</b>
+          <b className="b">{AboutData.text6}</b>
           {AboutData.text7}
-          <b>{AboutData.text8}</b>
+          <b className="b">{AboutData.text8}</b>
           {AboutData.text9}
-          <b>{AboutData.text10}</b>
+          <b className="b">{AboutData.text10}</b>
         </p>
       </div>
 
@@ -33,15 +33,15 @@ const About = () => {
       >
         <p>
           {AboutData.text11}
-          <b> {AboutData.text12}</b>
+          <b className="b"> {AboutData.text12}</b>
           {AboutData.text13}
-          <b>{AboutData.text14}</b>
+          <b className="b">{AboutData.text14}</b>
           {AboutData.text15}
-          <b>{AboutData.text16}</b>
+          <b className="b">{AboutData.text16}</b>
           {AboutData.text17}
-          <b>{AboutData.text18}</b>
+          <b className="b">{AboutData.text18}</b>
           {AboutData.text19}
-          <b>{AboutData.text20}</b>
+          <b className="b">{AboutData.text20}</b>
         </p>
       </div>
     </section>
