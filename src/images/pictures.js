@@ -34,6 +34,8 @@ import flor1 from "./flor1.jpeg";
 import monica from "./monica.jpeg";
 import dayse from "./dayse.jpeg";
 import joaquin from "./joaquin.jpeg";
+import nixon from "./nixon.jpeg";
+import gerald from "./gerald.jpeg";
 
 const pictures = {
   bidwiz0,
@@ -72,6 +74,8 @@ const pictures = {
   monica,
   dayse,
   joaquin,
+  nixon,
+  gerald,
 };
 
 export default pictures;
