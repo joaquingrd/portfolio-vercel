@@ -1,5 +1,30 @@
 [
   {
+    "carruselId": "carruselBidWiz",
+    "imgActive": "bidwiz0",
+    "img": [
+      { "name": "bidwiz1" },
+      { "name": "bidwiz2" },
+      { "name": "bidwiz3" },
+      { "name": "bidwiz4" },
+      { "name": "bidwiz5" },
+      { "name": "bidwiz6" },
+      { "name": "bidwiz7" },
+      { "name": "bidwiz8" },
+      { "name": "bidwiz9" }
+    ],
+    "projectName": "BidWiz Project",
+    "modalId": "BidWiz",
+    "modalTitle": "BidWiz Project",
+    "text1": "BidWiz es una aplicación que se centra en la búsqueda y contratación de profesores particulares. ",
+    "text2": "Algunos de mis mayores aportes se encuentran en Front-end en donde utilizé Next.js, TypeScript, Redux Toolkit, Sass y Figma.",
+    "text3": "Trabajé en el diseño de toda la aplicación e implementé filtros combinados, ordenamientos por review, DarkMode, acordeones para el Profile, realicé un tablero Dashboard para el perfil Admin con borrado lógico y estadísticas generales de usuarios y ventas, e implementé Cloudinary para el almacenamiento de archivos y fotos, entre otros.",
+    "text4": "Como equipo realizamos la implementación exitosa de Google Authenticator, Firebase y Mercado Pago como plataforma de pago.",
+    "text5": "NO RESPONSIVE.",
+    "github": "https://github.com/Mr-Hache/bidWiz-Frontend",
+    "deploy": "https://bid-wiz-frontend.vercel.app/"
+  },
+  {
     "carruselId": "carruselPorfolio",
     "imgActive": "portfolio",
     "img": [
