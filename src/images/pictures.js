@@ -1,3 +1,13 @@
+import bidwiz0 from "./bidwiz0.jpg";
+import bidwiz1 from "./bidwiz1.jpg";
+import bidwiz2 from "./bidwiz2.jpg";
+import bidwiz3 from "./bidwiz3.jpg";
+import bidwiz4 from "./bidwiz4.jpg";
+import bidwiz5 from "./bidwiz5.jpg";
+import bidwiz6 from "./bidwiz6.jpg";
+import bidwiz7 from "./bidwiz7.jpg";
+import bidwiz8 from "./bidwiz8.jpg";
+import bidwiz9 from "./bidwiz9.jpg";
 import portfolio from "./portfolio.jpg";
 import portfolio1 from "./portfolio1.jpg";
 import portfolio2 from "./portfolio2.jpg";
@@ -26,6 +36,16 @@ import dayse from "./dayse.jpeg";
 import joaquin from "./joaquin.jpeg";
 
 const pictures = {
+  bidwiz0,
+  bidwiz1,
+  bidwiz2,
+  bidwiz3,
+  bidwiz4,
+  bidwiz5,
+  bidwiz6,
+  bidwiz7,
+  bidwiz8,
+  bidwiz9,
   portfolio,
   portfolio1,
   portfolio2,
