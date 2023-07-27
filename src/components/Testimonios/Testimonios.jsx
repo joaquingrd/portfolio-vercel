@@ -7,11 +7,12 @@ import pictures from "../../images/pictures";
 
 const Testimonios = () => {
   const data = useSelector((state) => state.data);
+  const mode = useSelector((state) => state.mode);
 
   const testimoniosData = useSelector((state) => state.testimonios);
 
   return (
-    <section className="Testimonios">
+    <section className={`testimonios ${mode === "dark" && "testimonios-dark"}`}>
       <div className="testimonio-title">
         <h3 className="testi-title">
           {data.testimoniosTitle}
