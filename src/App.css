@@ -3,3 +3,6 @@ body {
   max-width: 100% !important;
   overflow-x: hidden !important;
 }
+.App-dark {
+  background-color: #3c3c49;
+}

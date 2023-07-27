@@ -9,11 +9,14 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Skills from "./components/Skills/Skills";
 import Testimonios from "./components/Testimonios/Testimonios";
+import { useSelector } from "react-redux";
 
 function App() {
+  const mode = useSelector((state) => state.mode);
+
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className={`App ${mode === "dark" && "App-dark"}`}>
         <NavBar />
         <Hero />
         <About />
