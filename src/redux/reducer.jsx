@@ -1,4 +1,5 @@
-import { SELECT_LANGUAGE } from "./actions";
+import { SELECT_LANGUAGE, SELECT_MODE } from "./actions";
+
 import data_es from "../Data/data_es.json";
 import data_pt from "../Data/data_pt.json";
 import project_es from "../Data/project_es.json";
@@ -11,9 +12,10 @@ const initialState = {
   data: data_es,
   projects: project_es,
   testimonios: testimonios_es,
+  mode: "ligth",
 };
 
-const selectLanguage = (state = initialState, action) => {
+const rootReducer = (state = initialState, action) => {
   switch (action.type) {
     case SELECT_LANGUAGE:
       return {
@@ -24,9 +26,15 @@ const selectLanguage = (state = initialState, action) => {
         testimonios:
           action.payload === data_pt ? testimonios_pt : testimonios_es,
       };
+
+    case SELECT_MODE:
+      return {
+        ...state,
+        mode: action.payload,
+      };
     default:
       return { ...state };
   }
 };
 
-export default selectLanguage;
+export default rootReducer;
