@@ -1,12 +1,14 @@
 import "./About.css";
 import { useSelector } from "react-redux";
-import React from "react";
+import React, { useState } from "react";
+import { selectMode } from "../../redux/actions";
 
 const About = () => {
   const AboutData = useSelector((state) => state.data);
+  const mode = useSelector((state) => state.mode);
 
   return (
-    <section className="about" id="about">
+    <section className={`about ${mode === "dark" && "about-dark"}`} id="about">
       <div
         className="about-text1"
         data-aos="fade-right"

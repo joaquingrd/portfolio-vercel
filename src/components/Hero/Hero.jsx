@@ -47,7 +47,7 @@ const Hero = () => {
               {heroData.subtitle}
             </h2>
           </div>
-          <div className={`descargar ${mode === "dark" && "descargar-dark"}`}>
+          <div className="descargar">
             <a
               href={language === "es" ? CVe : CVp}
               target="_blank"
