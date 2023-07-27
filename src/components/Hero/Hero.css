@@ -38,11 +38,19 @@
   color: white;
 }
 
-/*CONTENEDOR IMAGEN*/
+.hero-subtitle-dark {
+}
+
+/*CONTENEDOR IMAGE*/
 .contenedor2 {
   padding-top: 0vw;
   height: 46vw;
 }
+
+.contenedor2-dark {
+  background-color: #3c3c49;
+}
+
 .hero-image {
   width: 25vw;
   position: absolute;
@@ -65,6 +73,9 @@
   width: 12vw;
   margin-top: 3.5vw;
   margin-left: 2vw;
+}
+
+.descargar-dark {
 }
 
 .btn-descargar {
@@ -94,9 +105,14 @@
 
 .ic-language {
   padding: 0%;
-
   width: 3vw;
   height: 3vw;
+}
+
+.ic-dark {
+  padding: 0%;
+  width: 3vw;
+  height: 2vw;
 }
 
 /*RESPONSIVE*/
@@ -204,5 +220,21 @@
   .ic-language {
     width: 9vw;
     height: 9vw;
+  }
+
+  /* darkMode */
+
+  .ic-dark {
+    width: 5vw;
+    height: 5vw;
+    margin-top: 2vw;
+    margin-left: 6vw;
+  }
+
+  .ic-dark {
+    width: 5vw;
+    height: 5vw;
+    margin-top: 2vw;
+    margin-left: 6vw;
   }
 }
