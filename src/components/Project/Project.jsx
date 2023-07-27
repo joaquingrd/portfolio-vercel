@@ -1,5 +1,6 @@
 import "./Project.css";
 import React from "react";
+import { useSelector } from "react-redux";
 
 import pictures from "../../images/pictures";
 
@@ -19,6 +20,8 @@ const Project = ({
   gituhub,
   deploy,
 }) => {
+  const mode = useSelector((state) => state.mode);
+
   return (
     <section className="project" id="project">
       {/* PROYECTO = */}
@@ -90,9 +93,18 @@ const Project = ({
               aria-hidden="true"
             >
               <div className="modal-dialog">
-                <div className="modal-content">
+                <div
+                  className={`modal-content ${
+                    mode === "dark" && "modal-content-dark"
+                  }`}
+                >
                   <div className="modal-header">
-                    <h1 className="modal-title fs-5" id={`${modalId}Label`}>
+                    <h1
+                      className={`modal-title fs-5 ${
+                        mode === "dark" && "modal-title-dark"
+                      }`}
+                      id={`${modalId}Label`}
+                    >
                       {modalTitle}
                     </h1>
                     <button
@@ -102,13 +114,39 @@ const Project = ({
                       aria-label="Close"
                     ></button>
                   </div>
-                  <div className="modal-body">{text1}</div>
-                  <div className="modal-body">{text2}</div>
-                  <div className="modal-body">{text3}</div>
-                  <div className="modal-body">
+                  <div
+                    className={`modal-body ${
+                      mode === "dark" && "modal-body-dark"
+                    }`}
+                  >
+                    {text1}
+                  </div>
+                  <div
+                    className={`modal-body ${
+                      mode === "dark" && "modal-body-dark"
+                    }`}
+                  >
+                    {text2}
+                  </div>
+                  <div
+                    className={`modal-body ${
+                      mode === "dark" && "modal-body-dark"
+                    }`}
+                  >
+                    {text3}
+                  </div>
+                  <div
+                    className={`modal-body ${
+                      mode === "dark" && "modal-body-dark"
+                    }`}
+                  >
                     <b>{text4}</b>
                   </div>
-                  <div className="modal-body">
+                  <div
+                    className={`modal-body ${
+                      mode === "dark" && "modal-body-dark"
+                    }`}
+                  >
                     <b>{text5}</b>
                   </div>
 

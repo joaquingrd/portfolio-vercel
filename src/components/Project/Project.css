@@ -137,6 +137,21 @@ article:has(:hover, :focus) {
   right: 5.5vw;
 }
 
+.modal-content-dark {
+  background-color: #3c3c49;
+}
+.modal-body-dark {
+  color: white;
+}
+
+.modal-body-dark b {
+  color: #bffa37;
+}
+
+.modal-title-dark {
+  color: #bffa37;
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 960px) {
@@ -183,5 +198,9 @@ article:has(:hover, :focus) {
     top: 3vw;
     width: 90vw;
     height: auto;
+  }
+
+  .modal-content-dark {
+    background-color: #3c3c49;
   }
 }
