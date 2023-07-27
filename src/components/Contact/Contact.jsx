@@ -4,9 +4,13 @@ import { useSelector } from "react-redux";
 
 const Contact = () => {
   const contactData = useSelector((state) => state.data);
+  const mode = useSelector((state) => state.mode);
 
   return (
-    <section className="Contact" id="contact">
+    <section
+      className={`contact ${mode === "dark" && "contact-dark"}`}
+      id="contact"
+    >
       <div className="contact-title">
         <p>{contactData.contact}</p>
       </div>
