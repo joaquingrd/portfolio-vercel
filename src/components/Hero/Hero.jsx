@@ -75,11 +75,11 @@ const Hero = () => {
                 <Icon className="ic-language" icon="twemoji:flag-spain" />
               )}
             </button>
-            <button className="language-btn" onClick={handleModeChange}>
+            <button className="mode-btn" onClick={handleModeChange}>
               {lastMode === "dark" ? (
-                <Icon className="ic-dark" icon="twemoji:sun" />
+                <Icon className="ic-sun" icon="twemoji:sun" />
               ) : (
-                <Icon className="ic-dark" icon="solar:moon-bold" />
+                <Icon className="ic-moon" icon="solar:moon-bold" />
               )}
             </button>
           </div>

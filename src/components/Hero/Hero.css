@@ -97,9 +97,20 @@
   width: 4vw;
   height: 4vw;
   padding: 0%;
-
   z-index: 2000;
   background-color: rgba(0, 0, 255, 0);
+  position: fixed;
+  margin-right: 4vw;
+}
+
+.mode-btn {
+  border: none;
+  width: 4vw;
+  height: 4vw;
+  padding: 0%;
+  z-index: 2000;
+  background-color: rgba(0, 0, 255, 0);
+  position: fixed;
 }
 
 .ic-language {
@@ -108,10 +119,17 @@
   height: 3vw;
 }
 
-.ic-dark {
+.ic-sun {
   padding: 0%;
   width: 3vw;
   height: 2vw;
+}
+
+.ic-moon {
+  padding: 0%;
+  width: 3vw;
+  height: 2vw;
+  color: rgb(32, 2, 102);
 }
 
 /*RESPONSIVE*/
@@ -214,6 +232,7 @@
     padding-right: 1vw;
     position: absolute;
     top: 1.8vw;
+    background-color: red;
   }
 
   .ic-language {
@@ -223,7 +242,7 @@
 
   /* darkMode */
 
-  .ic-dark {
+  .ic-sun {
     width: 5vw;
     height: 5vw;
     margin-top: 2vw;
