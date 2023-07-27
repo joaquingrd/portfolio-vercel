@@ -1,12 +1,17 @@
 .projects {
-  margin-top: 5vw;
+  margin-top: 0vw;
   max-width: 100%;
   min-height: 70vw;
   padding: 5vw;
+  padding-top: 8vw;
   display: grid;
   grid-template-columns: repeat(2, minmax(42%, 42%));
   justify-content: center;
   gap: 6vw;
+}
+
+.projects-dark {
+  background-color: #3c3c49;
 }
 
 @media screen and (max-width: 960px) {

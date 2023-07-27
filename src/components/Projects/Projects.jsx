@@ -6,10 +6,14 @@ import Project from "../Project/Project";
 
 const Projects = () => {
   const data = useSelector((state) => state.data);
+  const mode = useSelector((state) => state.mode);
 
   const projectData = useSelector((state) => state.projects);
   return (
-    <section className="projects" id="project">
+    <section
+      className={`projects ${mode === "dark" && "projects-dark"}`}
+      id="project"
+    >
       {projectData.map((character) => {
         return (
           <Project
