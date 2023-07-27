@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./NavBar.css";
 import { useSelector } from "react-redux";
-import { Icon } from "@iconify/react";
+import { selectMode } from "../../redux/actions";
 
 const NavBar = () => {
   const navBarData = useSelector((state) => state.data);
+  const mode = useSelector((state) => state.mode);
 
   return (
     <section className="navBar">
@@ -22,8 +23,10 @@ const NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
+            <ul
+              className={`navbar-nav ${mode === "dark" && "navbar-nav-dark"}`}
+            >
+              <li className={`nav-item ${mode === "dark" && "nav-item-dark"}`}>
                 <a className="nav-link " aria-current="page" href="#inicio">
                   {navBarData.nav1}
                 </a>

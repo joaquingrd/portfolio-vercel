@@ -36,6 +36,12 @@
   padding-left: 2vw;
 }
 
+.navbar-nav-dark {
+  background-color: #3c3c49;
+}
+.nav-item-dark a {
+  color: white;
+}
 .nav-link {
   transition: 0.3s;
 }
