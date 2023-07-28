@@ -48,6 +48,8 @@
 }
 
 .contenedor2-dark {
+  padding-top: 0vw;
+  height: 46vw;
 }
 
 .hero-image {
@@ -75,6 +77,9 @@
 }
 
 .descargar-dark {
+  width: 12vw;
+  margin-top: 3.5vw;
+  margin-left: 2vw;
 }
 
 .btn-descargar {
