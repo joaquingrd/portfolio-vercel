@@ -12,7 +12,7 @@ const initialState = {
   data: data_es,
   projects: project_es,
   testimonios: testimonios_es,
-  mode: "ligth",
+  mode: "dark",
 };
 
 const rootReducer = (state = initialState, action) => {
