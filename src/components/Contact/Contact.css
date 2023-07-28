@@ -2,6 +2,11 @@
   margin: 0px;
   height: 7.7vw;
   display: block;
+  background-color: #272733;
+}
+
+.contact-dark {
+  background-color: #ffffff00;
 }
 
 .contact-title {
