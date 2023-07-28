@@ -11,9 +11,6 @@
   justify-content: center;
   align-items: center;
 }
-.name {
-  margin-top: 5px;
-}
 
 .Skills {
   background-color: #272733;
@@ -43,6 +40,10 @@
   height: 5vw;
   transition: 0.4s;
   border-radius: 10px;
+}
+
+.name {
+  font-size: 1.5vw;
 }
 
 .ic:hover {
@@ -76,9 +77,14 @@
   }
 
   .ic {
-    width: 9vw;
-    height: 9vw;
+    width: 7vw;
+    height: 7vw;
   }
+
+  .name {
+    font-size: 2.2vw;
+  }
+
   .iconos-front {
     margin-top: 10vw;
     gap: 4vw;
