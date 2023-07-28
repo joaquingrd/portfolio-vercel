@@ -1,6 +1,5 @@
 .contact {
   margin: 0px;
-  background-color: #656570;
   height: 7.7vw;
   display: block;
 }
@@ -56,16 +55,17 @@
 }
 
 @media screen and (max-width: 701px) {
-  .Contact {
-    margin-top: 3vw;
+  .contact {
+    margin-top: 0vw;
     padding-top: 2vw;
     height: 24vw;
   }
   .contact-title {
     font-size: 4.5vw;
+    margin-bottom: 2vw;
   }
   .contact-icon {
-    margin-top: -3vw;
+    margin-top: 1vw;
     gap: 12vw;
   }
   .icon {

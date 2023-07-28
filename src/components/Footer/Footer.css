@@ -1,6 +1,8 @@
 .copyright-dark {
-  background-color: #3c3c49;
+  background-color: #272733;
+
   color: white;
+  padding-bottom: 1vw;
 }
 
 @media screen and (max-width: 701px) {
