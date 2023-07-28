@@ -64,6 +64,10 @@
   opacity: 0;
 }
 
+.hero-arrow {
+  opacity: 0;
+}
+
 .div-img {
   opacity: 0;
 }
@@ -216,6 +220,7 @@
     margin: auto;
     margin-top: 15vw;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     border-radius: 50%;
   }
@@ -226,6 +231,17 @@
     display: flex;
     margin-top: -2.95vw;
     margin-left: -2vw;
+    opacity: 1;
+    border-radius: 54%;
+  }
+
+  .hero-arrow {
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    margin-left: 20vw;
     opacity: 1;
     border-radius: 54%;
   }

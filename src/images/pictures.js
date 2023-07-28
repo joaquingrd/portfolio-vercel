@@ -36,6 +36,7 @@ import dayse from "./dayse.jpeg";
 import joaquin from "./joaquin.jpeg";
 import nixon from "./nixon.jpg";
 import gerald from "./gerald.jpg";
+import arrow from "./arrow-gift.webp";
 
 const pictures = {
   bidwiz0,
@@ -76,6 +77,7 @@ const pictures = {
   joaquin,
   nixon,
   gerald,
+  arrow,
 };
 
 export default pictures;

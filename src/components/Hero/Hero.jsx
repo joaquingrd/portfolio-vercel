@@ -1,6 +1,7 @@
 import "./Hero.css";
 import Perfil from "../../images/verde.png";
 import Perfil1 from "../../images/transparente.png";
+import Arrow from "../../images/arrow-gift.webp";
 import CVe from "../../pdfs/CVe_Joaquin_RuizDiaz.pdf";
 import CVp from "../../pdfs/CVp_Joaquin_RuizDiaz.pdf";
 import { Icon } from "@iconify/react";
@@ -88,6 +89,7 @@ const Hero = () => {
           <img className="hero-image" src={Perfil} alt={heroData.altText} />
           <div className="div-img" data-aos="zoom-in">
             <img className="hero-image1" src={Perfil1} alt={heroData.altText} />
+            <img className="hero-arrow" src={Arrow} alt={heroData.altText} />
           </div>
         </div>
       </div>
