@@ -26,7 +26,7 @@ const Testimonios = () => {
         data-bs-ride="carousel"
       >
         <div className="carousel-inner carousel-in">
-          <div className="carousel-item active " data-bs-interval="8000">
+          <div className="carousel-item  active " data-bs-interval="8000">
             <div className="container carrusel-testimonio-item">
               <img
                 src={pictures[testimoniosData.active.img]}
