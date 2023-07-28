@@ -51,20 +51,28 @@
 }
 
 @media screen and (max-width: 960px) {
-  .Testimonios {
-    min-height: 120vw;
+  .testimonios {
+    height: 80vw;
     padding: 0%;
   }
 
   .testi-title {
     font-size: 6vw;
-    padding: 0 12vw 0 12vw;
+    padding: 4vw 12vw 0 12vw;
     margin-bottom: 5vw;
+  }
+
+  .carousel-in {
+    height: 55vw;
+    padding-top: 0vw;
+    display: flex;
+    align-items: center;
+    margin-top: 5vw;
   }
 
   .carrusel-testimonio {
     width: 100%;
-    height: 100vw;
+    height: 55vw;
     margin: 0%;
   }
   .carousel-control-prev {
