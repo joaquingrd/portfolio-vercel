@@ -16,7 +16,7 @@ const Testimonios = () => {
       <div className="testimonio-title">
         <h3 className="testi-title">
           {data.testimoniosTitle}
-          <Icon icon="bi:linkedin" color="#0077b5" width="45" />{" "}
+          <Icon icon="bi:linkedin" color="#0077b5" width="40" />{" "}
         </h3>
       </div>
 
